@@ -17,5 +17,3 @@ More labs will be added as I go through the course.
 - NumPy
 - Matplotlib
 - Jupyter Notebook
-
-Will update this properly once I finish the course.
