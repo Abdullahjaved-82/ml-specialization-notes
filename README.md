@@ -6,8 +6,9 @@ I'm implementing things like the cost function and gradient descent by hand usin
 
 ## Contents
 
-- `week1/cost_function_lab.ipynb` — cost function for linear regression
-- `week1/C1_W1_Lab04_Gradient_Descent.ipynb` — gradient descent for linear regression
+- `course1-supervised-ml/week_1/cost_function_lab.ipynb` — cost function for linear regression
+- `course1-supervised-ml/week_1/C1_W1_Lab04_Gradient_Descent.ipynb` — gradient descent for linear regression
+- `course1-supervised-ml/week_2/C1_W2_Lab01_Python_Numpy_Vectorization.ipynb` — NumPy vectors, matrices, indexing, slicing, and the dot product
 
 More labs will be added as I go through the course.
 
