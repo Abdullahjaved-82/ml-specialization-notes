@@ -15,6 +15,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 3 | [NumPy & Vectorization](course1-supervised-ml/week_2/C1_W2_Lab01_Python_Numpy_Vectorization.ipynb) | Vectors, matrices, indexing, slicing, and the dot product |
 | 4 | [Multiple Variable Regression](course1-supervised-ml/week_2/C1_W2_Lab02_Multiple_Variable.ipynb) | Extending regression to multiple features using np.dot |
 | 5 | [Feature Scaling & Learning Rate](course1-supervised-ml/week_2/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate.ipynb) | Why mismatched feature scales break gradient descent, and how z-score normalization fixes it |
+| 6 | [Feature Engineering & Polynomial Regression](course1-supervised-ml/week_2/C1_W2_Lab04_FeatEng_PolyReg.ipynb) | Fitting curves (even a cosine wave) with plain linear regression by engineering polynomial features |
 
 More gets added as I move through the course.
 
