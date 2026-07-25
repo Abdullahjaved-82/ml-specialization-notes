@@ -1,22 +1,34 @@
 # ML Specialization Notes
 
-Notebooks from working through the Machine Learning Specialization course (Supervised Machine Learning: Regression and Classification).
+Notebooks from working through Andrew Ng's Machine Learning Specialization (Supervised Machine Learning: Regression and Classification). Every function here — cost, gradient, gradient descent, normalization — is implemented and debugged by hand with NumPy, not copy-pasted from the course solutions.
 
-I'm implementing things like the cost function and gradient descent by hand using NumPy and Matplotlib, instead of just running pre-built solutions, so I actually understand how they work.
+## Why this repo exists
 
-## Contents
+Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too — that's intentional.
 
-- `course1-supervised-ml/week_1/cost_function_lab.ipynb` — cost function for linear regression
-- `course1-supervised-ml/week_1/C1_W1_Lab04_Gradient_Descent.ipynb` — gradient descent for linear regression
-- `course1-supervised-ml/week_2/C1_W2_Lab01_Python_Numpy_Vectorization.ipynb` — NumPy vectors, matrices, indexing, slicing, and the dot product
-- `course1-supervised-ml/week_2/C1_W2_Lab02_Multiple_Variable.ipynb` — linear regression with multiple features, vectorized using np.dot
-- `course1-supervised-ml/week_2/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate.ipynb` — feature scaling (z-score normalization) and learning rate tuning
+## Notebooks
 
-More labs will be added as I go through the course.
+| # | Notebook | What it covers |
+|---|---|---|
+| 1 | [Cost Function](course1-supervised-ml/week_1/cost_function_lab.ipynb) | Implementing the cost function for single-variable linear regression |
+| 2 | [Gradient Descent](course1-supervised-ml/week_1/C1_W1_Lab04_Gradient_Descent.ipynb) | Automating parameter optimization instead of guessing w and b manually |
+| 3 | [NumPy & Vectorization](course1-supervised-ml/week_2/C1_W2_Lab01_Python_Numpy_Vectorization.ipynb) | Vectors, matrices, indexing, slicing, and the dot product |
+| 4 | [Multiple Variable Regression](course1-supervised-ml/week_2/C1_W2_Lab02_Multiple_Variable.ipynb) | Extending regression to multiple features using np.dot |
+| 5 | [Feature Scaling & Learning Rate](course1-supervised-ml/week_2/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate.ipynb) | Why mismatched feature scales break gradient descent, and how z-score normalization fixes it |
 
-## Tools used
+More gets added as I move through the course.
 
-- Python
-- NumPy
-- Matplotlib
-- Jupyter Notebook
+## Stack
+
+Python · NumPy · Matplotlib · Jupyter Notebook
+
+## Running locally
+
+```bash
+git clone https://github.com/Abdullahjaved-82/ml-specialization-notes.git
+cd ml-specialization-notes
+jupyter notebook
+```
+
+These are my own implementations of concepts taught in the course, not copies of the official solutions.
+
