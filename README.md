@@ -16,12 +16,13 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 4 | [Multiple Variable Regression](course1-supervised-ml/week_2/C1_W2_Lab02_Multiple_Variable.ipynb) | Extending regression to multiple features using np.dot |
 | 5 | [Feature Scaling & Learning Rate](course1-supervised-ml/week_2/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate.ipynb) | Why mismatched feature scales break gradient descent, and how z-score normalization fixes it |
 | 6 | [Feature Engineering & Polynomial Regression](course1-supervised-ml/week_2/C1_W2_Lab04_FeatEng_PolyReg.ipynb) | Fitting curves (even a cosine wave) with plain linear regression by engineering polynomial features |
+| 7 | [Scikit-Learn Gradient Descent](course1-supervised-ml/week_2/C1_W2_Lab05_Sklearn_GD.ipynb) | Reproducing the hand-built regression pipeline using scikit-learn's SGDRegressor and StandardScaler |
 
-More gets added as I move through the course.
+Week 2 of Course 1 is complete. More gets added as I move into Week 3.
 
 ## Stack
 
-Python · NumPy · Matplotlib · Jupyter Notebook
+Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn
 
 ## Running locally
 
