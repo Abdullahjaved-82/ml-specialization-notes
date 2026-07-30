@@ -18,6 +18,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 6 | [Feature Engineering & Polynomial Regression](course1-supervised-ml/week_2/C1_W2_Lab04_FeatEng_PolyReg.ipynb) | Fitting curves (even a cosine wave) with plain linear regression by engineering polynomial features |
 | 7 | [Scikit-Learn Gradient Descent](course1-supervised-ml/week_2/C1_W2_Lab05_Sklearn_GD.ipynb) | Reproducing the hand-built regression pipeline using scikit-learn's SGDRegressor and StandardScaler |
 | 8 | [Classification Intro](course1-supervised-ml/week_3/C1_W3_Lab01_Classification.ipynb) | Contrasting regression vs classification, and why linear regression fails on categorical data |
+| 9 | [Sigmoid Function](course1-supervised-ml/week_3/C1_W3_Lab02_Sigmoid_Function.ipynb) | Implementing the sigmoid function and combining it with linear regression to build logistic regression |
 
 Course 1, Week 2 is complete. Now moving through Week 3.
 
