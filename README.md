@@ -19,6 +19,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 7 | [Scikit-Learn Gradient Descent](course1-supervised-ml/week_2/C1_W2_Lab05_Sklearn_GD.ipynb) | Reproducing the hand-built regression pipeline using scikit-learn's SGDRegressor and StandardScaler |
 | 8 | [Classification Intro](course1-supervised-ml/week_3/C1_W3_Lab01_Classification.ipynb) | Contrasting regression vs classification, and why linear regression fails on categorical data |
 | 9 | [Sigmoid Function](course1-supervised-ml/week_3/C1_W3_Lab02_Sigmoid_Function.ipynb) | Implementing the sigmoid function and combining it with linear regression to build logistic regression |
+| 10 | [Decision Boundary](course1-supervised-ml/week_3/C1_W3_Lab03_Decision_Boundary.ipynb) | Deriving and plotting the line where a logistic regression model switches its prediction |
 
 Course 1, Week 2 is complete. Now moving through Week 3.
 
