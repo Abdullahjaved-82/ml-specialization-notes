@@ -20,6 +20,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 8 | [Classification Intro](course1-supervised-ml/week_3/C1_W3_Lab01_Classification.ipynb) | Contrasting regression vs classification, and why linear regression fails on categorical data |
 | 9 | [Sigmoid Function](course1-supervised-ml/week_3/C1_W3_Lab02_Sigmoid_Function.ipynb) | Implementing the sigmoid function and combining it with linear regression to build logistic regression |
 | 10 | [Decision Boundary](course1-supervised-ml/week_3/C1_W3_Lab03_Decision_Boundary.ipynb) | Deriving and plotting the line where a logistic regression model switches its prediction |
+| 11 | [Logistic Loss](course1-supervised-ml/week_3/C1_W3_Lab04_LogisticLoss.ipynb) | Why squared error breaks with sigmoid, and building the logistic loss function that fixes it |
 
 Course 1, Week 2 is complete. Now moving through Week 3.
 
