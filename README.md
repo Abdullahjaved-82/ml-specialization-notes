@@ -22,6 +22,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 10 | [Decision Boundary](course1-supervised-ml/week_3/C1_W3_Lab03_Decision_Boundary.ipynb) | Deriving and plotting the line where a logistic regression model switches its prediction |
 | 11 | [Logistic Loss](course1-supervised-ml/week_3/C1_W3_Lab04_LogisticLoss.ipynb) | Why squared error breaks with sigmoid, and building the logistic loss function that fixes it |
 | 12 | [Logistic Cost Function](course1-supervised-ml/week_3/C1_W3_Lab05_Cost_Function.ipynb) | Full multi-feature logistic regression cost function, comparing two candidate decision boundaries |
+| 13 | [C1_W3_Lab06_Gradient_Descent](course1-supervised-ml/week_3/C1_W3_Lab06_Gradient_Descent.ipynb) | Gradient descent for logistic regression, decision boundary visualization, cost function surface |
 
 Course 1, Week 2 is complete. Now moving through Week 3.
 
