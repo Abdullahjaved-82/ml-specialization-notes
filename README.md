@@ -1,12 +1,12 @@
 # ML Specialization Notes
 
-Notebooks from working through Andrew Ng's Machine Learning Specialization (Supervised Machine Learning: Regression and Classification). Every function here — cost, gradient, gradient descent, normalization — is implemented and debugged by hand with NumPy, not copy-pasted from the course solutions.
+Notebooks from working through Andrew Ng's Machine Learning Specialization. This repo currently covers Course 1 (Supervised Machine Learning: Regression and Classification). Every function here — cost, gradient, gradient descent, normalization — is implemented and debugged by hand with NumPy, not copy-pasted from the course solutions.
 
 ## Why this repo exists
 
 Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too — that's intentional.
 
-## Notebooks
+## Course 1: Supervised Machine Learning — Regression and Classification
 
 | # | Notebook | What it covers |
 |---|---|---|
@@ -22,10 +22,12 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 10 | [Decision Boundary](course1-supervised-ml/week_3/C1_W3_Lab03_Decision_Boundary.ipynb) | Deriving and plotting the line where a logistic regression model switches its prediction |
 | 11 | [Logistic Loss](course1-supervised-ml/week_3/C1_W3_Lab04_LogisticLoss.ipynb) | Why squared error breaks with sigmoid, and building the logistic loss function that fixes it |
 | 12 | [Logistic Cost Function](course1-supervised-ml/week_3/C1_W3_Lab05_Cost_Function.ipynb) | Full multi-feature logistic regression cost function, comparing two candidate decision boundaries |
-| 13 | [C1_W3_Lab06_Gradient_Descent](course1-supervised-ml/week_3/C1_W3_Lab06_Gradient_Descent.ipynb) | Gradient descent for logistic regression, decision boundary visualization, cost function surface |
-| 14 | [C1_W3_Lab07_Scikit_Learn_logistic_regression](course1-supervised-ml/week_3/C1_W3_Lab07_Scikit_Learn_logistic_regression.ipynb) | Logistic regression using scikit-learn — fit, predict, score |
+| 13 | [Gradient Descent for Logistic Regression](course1-supervised-ml/week_3/C1_W3_Lab06_Gradient_Descent.ipynb) | Gradient descent for logistic regression, decision boundary visualization, cost function surface |
+| 14 | [Logistic Regression with Scikit-Learn](course1-supervised-ml/week_3/C1_W3_Lab07_Scikit_Learn_logistic_regression.ipynb) | Logistic regression using scikit-learn — fit, predict, score |
+| 15 | — | Overfitting (interactive Coursera widget lab, no code to rebuild — skipped) |
+| 16 | [Regularization](course1-supervised-ml/week_3/C1_W3_Lab09_Regularization.ipynb) | Regularized cost and gradient for both linear and logistic regression |
 
-Course 1, Week 2 is complete. Now moving through Week 3.
+Course 1 is complete. Next up: Course 2 (Advanced Learning Algorithms).
 
 ## Stack
 
