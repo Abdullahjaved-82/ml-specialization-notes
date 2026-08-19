@@ -72,6 +72,6 @@ jupyter notebook
 
 These are my own implementations of concepts taught in the course, not copies of the official solutions.
 
-- LinkedIn: [Abdullah javed]([https://linkedin.com](https://www.linkedin.com/in/abdullah-javed-8468a7343))
+- LinkedIn: [Abdullahjaved]([https://linkedin.com](https://www.linkedin.com/in/abdullah-javed-8468a7343))
 - Portfolio: [Abdullahjaved.site](https://Abdullahjaved.site)
 - Email: abdullahjavec@gmail.com
