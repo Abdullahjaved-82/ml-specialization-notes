@@ -6,11 +6,11 @@
 ![Status](https://img.shields.io/badge/Course%201-Complete-brightgreen)
 ![Status](https://img.shields.io/badge/Course%202-In%20Progress-yellow)
 
-Hand-rebuilt, line-by-line implementations from Andrew Ng's Machine Learning Specialization (DeepLearning.AI) — every function debugged and re-derived by hand with NumPy and TensorFlow, not copy-pasted from the official solutions.
+Notebooks from working through Andrew Ng's Machine Learning Specialization (DeepLearning.AI) — every function implemented and debugged by hand with NumPy and TensorFlow, not copy-pasted from the official solutions.
 
 ## Why this repo exists
 
-Most people run the Coursera notebooks once and move on. I rebuilt each one from scratch instead — writing the code myself, breaking it, and fixing it — so I actually understand *why* each line works, not just that it does. The commit history is left intact on purpose: it's a record of the debugging process, not just the finished product.
+Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch — writing the code myself, breaking it, and fixing it. The commit history is left intact on purpose: it's a record of the debugging process, not just the finished product.
 
 ## A few things I actually got wrong (and fixed)
 
