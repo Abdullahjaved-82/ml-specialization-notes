@@ -1,10 +1,33 @@
 # ML Specialization Notes
 
-Notebooks from working through Andrew Ng's Machine Learning Specialization. Every function here is implemented and debugged by hand with NumPy/TensorFlow.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![NumPy](https://img.shields.io/badge/NumPy-vectorized-informational)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
+![Status](https://img.shields.io/badge/Course%201-Complete-brightgreen)
+![Status](https://img.shields.io/badge/Course%202-In%20Progress-yellow)
+
+Hand-rebuilt, line-by-line implementations from Andrew Ng's Machine Learning Specialization (DeepLearning.AI) — every function debugged and re-derived by hand with NumPy and TensorFlow, not copy-pasted from the official solutions.
 
 ## Why this repo exists
 
-Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too , that's intentional.
+Most people run the Coursera notebooks once and move on. I rebuilt each one from scratch instead — writing the code myself, breaking it, and fixing it — so I actually understand *why* each line works, not just that it does. The commit history is left intact on purpose: it's a record of the debugging process, not just the finished product.
+
+## A few things I actually got wrong (and fixed)
+
+> Fill this in with 2-4 real examples — this section is the single highest-value addition you can make. Recruiters skim past claims but stop for specifics. Format: what broke, why, how you found it. Example shape below — replace with your own.
+
+- **Feature scaling lab:** gradient descent was diverging with a learning rate that should've been safe — turned out I hadn't scaled one feature column before running z-score normalization on the rest, so the cost surface was badly skewed.
+- **Logistic loss lab:** initially reused the squared-error cost function from Course 1 out of habit; the loss curve looked "off" (non-convex-looking during descent) until I realized why squared error breaks with a sigmoid and swapped in the log loss.
+
+*(Replace the two above with your real ones — even one honest example beats a polished but generic list.)*
+
+## Table of Contents
+
+- [Course 1: Supervised ML — Regression and Classification](#course-1-supervised-machine-learning--regression-and-classification)
+- [Course 2: Advanced Learning Algorithms](#course-2-advanced-learning-algorithms)
+- [Stack](#stack)
+- [Running Locally](#running-locally)
+- [Connect](#connect)
 
 ## Course 1: Supervised Machine Learning — Regression and Classification
 
@@ -27,7 +50,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 15 | — | Overfitting (interactive Coursera widget lab, no code to rebuild — skipped) |
 | 16 | [Regularization](course1-supervised-ml/week_3/C1_W3_Lab09_Regularization.ipynb) | Regularized cost and gradient for both linear and logistic regression |
 
-Course 1 is complete.
+**Course 1: Complete** ✅
 
 ## Course 2: Advanced Learning Algorithms
 
@@ -35,13 +58,13 @@ Course 1 is complete.
 |---|---|---|
 | 1 | [Neurons and Layers](course2-advanced-learning-algorithms/week_1/C2_W1_Lab01_Neurons_and_Layers.ipynb) | Building TensorFlow/Keras neurons that mirror Course 1's linear and logistic regression models |
 
-Currently in progress: Course 2, Week 1.
+**In progress — actively adding notebooks weekly.**
 
 ## Stack
 
 Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn · TensorFlow · Keras
 
-## Running locally
+## Running Locally
 
 ```bash
 git clone https://github.com/Abdullahjaved-82/ml-specialization-notes.git
@@ -49,4 +72,10 @@ cd ml-specialization-notes
 jupyter notebook
 ```
 
-These are my own implementations of concepts taught in the course, not copies of the official solutions.
+## Connect
+
+These are my own implementations of concepts taught in the course, not copies of the official solutions. If you're reviewing this as part of a hiring process and have questions about any specific implementation, feel free to reach out.
+
+- LinkedIn: *add your link here*
+- Portfolio / Resume: *add your link here*
+- Email: *add your email here*
