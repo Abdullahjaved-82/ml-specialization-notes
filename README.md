@@ -1,10 +1,10 @@
 # ML Specialization Notes
 
-Notebooks from working through Andrew Ng's Machine Learning Specialization. Every function here is implemented and debugged by hand with NumPy/TensorFlow, not copy-pasted from the course solutions.
+Notebooks from working through Andrew Ng's Machine Learning Specialization. Every function here is implemented and debugged by hand with NumPy/TensorFlow.
 
 ## Why this repo exists
 
-Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too — that's intentional.
+Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too , that's intentional.
 
 ## Course 1: Supervised Machine Learning — Regression and Classification
 
