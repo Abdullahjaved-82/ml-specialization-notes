@@ -14,12 +14,8 @@ Most people run the Coursera notebooks once and move on. I rebuilt each one from
 
 ## A few things I actually got wrong (and fixed)
 
-> Fill this in with 2-4 real examples — this section is the single highest-value addition you can make. Recruiters skim past claims but stop for specifics. Format: what broke, why, how you found it. Example shape below — replace with your own.
-
-- **Feature scaling lab:** gradient descent was diverging with a learning rate that should've been safe — turned out I hadn't scaled one feature column before running z-score normalization on the rest, so the cost surface was badly skewed.
-- **Logistic loss lab:** initially reused the squared-error cost function from Course 1 out of habit; the loss curve looked "off" (non-convex-looking during descent) until I realized why squared error breaks with a sigmoid and swapped in the log loss.
-
-*(Replace the two above with your real ones — even one honest example beats a polished but generic list.)*
+- **Feature scaling lab:** gradient descent was diverging with a learning rate that should've been safe. Turned out one feature column hadn't been scaled before z-score normalization ran on the rest, which badly skewed the cost surface.
+- **Logistic loss lab:** reused the squared-error cost function from Course 1 out of habit. The loss curve looked wrong (non-convex behavior during descent) until I saw why squared error breaks with a sigmoid, and switched to log loss.
 
 ## Table of Contents
 
@@ -74,8 +70,8 @@ jupyter notebook
 
 ## Connect
 
-These are my own implementations of concepts taught in the course, not copies of the official solutions. If you're reviewing this as part of a hiring process and have questions about any specific implementation, feel free to reach out.
+These are my own implementations of concepts taught in the course, not copies of the official solutions.
 
-- LinkedIn: *add your link here*
-- Portfolio / Resume: *add your link here*
-- Email: *add your email here*
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com)
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- Email: your.email@example.com
