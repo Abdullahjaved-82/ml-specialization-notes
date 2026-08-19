@@ -1,6 +1,6 @@
 # ML Specialization Notes
 
-Notebooks from working through Andrew Ng's Machine Learning Specialization. This repo currently covers Course 1 (Supervised Machine Learning: Regression and Classification). Every function here — cost, gradient, gradient descent, normalization — is implemented and debugged by hand with NumPy, not copy-pasted from the course solutions.
+Notebooks from working through Andrew Ng's Machine Learning Specialization. Every function here is implemented and debugged by hand with NumPy/TensorFlow, not copy-pasted from the course solutions.
 
 ## Why this repo exists
 
@@ -27,11 +27,19 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 15 | — | Overfitting (interactive Coursera widget lab, no code to rebuild — skipped) |
 | 16 | [Regularization](course1-supervised-ml/week_3/C1_W3_Lab09_Regularization.ipynb) | Regularized cost and gradient for both linear and logistic regression |
 
-Course 1 is complete. Next up: Course 2 (Advanced Learning Algorithms).
+Course 1 is complete.
+
+## Course 2: Advanced Learning Algorithms
+
+| # | Notebook | What it covers |
+|---|---|---|
+| 1 | [Neurons and Layers](course2-advanced-learning-algorithms/week_1/C2_W1_Lab01_Neurons_and_Layers.ipynb) | Building TensorFlow/Keras neurons that mirror Course 1's linear and logistic regression models |
+
+Currently in progress: Course 2, Week 1.
 
 ## Stack
 
-Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn
+Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn · TensorFlow · Keras
 
 ## Running locally
 
