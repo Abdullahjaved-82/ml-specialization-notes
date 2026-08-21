@@ -1,10 +1,29 @@
 # ML Specialization Notes
 
-Notebooks from working through Andrew Ng's Machine Learning Specialization. This repo currently covers Course 1 (Supervised Machine Learning: Regression and Classification). Every function here — cost, gradient, gradient descent, normalization — is implemented and debugged by hand with NumPy, not copy-pasted from the course solutions.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![NumPy](https://img.shields.io/badge/NumPy-vectorized-informational)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
+![Status](https://img.shields.io/badge/Course%201-Complete-brightgreen)
+![Status](https://img.shields.io/badge/Course%202-In%20Progress-yellow)
+
+Notebooks from working through Andrew Ng's Machine Learning Specialization (DeepLearning.AI) — every function implemented and debugged by hand with NumPy and TensorFlow, not copy-pasted from the official solutions.
 
 ## Why this repo exists
 
-Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch, line by line, with my own bugs found and fixed along the way. If you look through the commit history, you'll see the debugging process too — that's intentional.
+Most people run the Coursera notebooks once and move on. I wanted to actually understand what every line does, so each notebook here is rebuilt from scratch — writing the code myself, breaking it, and fixing it. The commit history is left intact on purpose: it's a record of the debugging process, not just the finished product.
+
+## A few things I actually got wrong (and fixed)
+
+- **Feature scaling lab:** gradient descent was diverging with a learning rate that should've been safe. Turned out one feature column hadn't been scaled before z-score normalization ran on the rest, which badly skewed the cost surface.
+- **Logistic loss lab:** reused the squared-error cost function from Course 1 out of habit. The loss curve looked wrong (non-convex behavior during descent) until I saw why squared error breaks with a sigmoid, and switched to log loss.
+
+## Table of Contents
+
+- [Course 1: Supervised ML — Regression and Classification](#course-1-supervised-machine-learning--regression-and-classification)
+- [Course 2: Advanced Learning Algorithms](#course-2-advanced-learning-algorithms)
+- [Stack](#stack)
+- [Running Locally](#running-locally)
+- [Connect](#connect)
 
 ## Course 1: Supervised Machine Learning — Regression and Classification
 
@@ -27,13 +46,21 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 15 | — | Overfitting (interactive Coursera widget lab, no code to rebuild — skipped) |
 | 16 | [Regularization](course1-supervised-ml/week_3/C1_W3_Lab09_Regularization.ipynb) | Regularized cost and gradient for both linear and logistic regression |
 
-Course 1 is complete. Next up: Course 2 (Advanced Learning Algorithms).
+**Course 1: Complete** ✅
+
+## Course 2: Advanced Learning Algorithms
+
+| # | Notebook | What it covers |
+|---|---|---|
+| 1 | [Neurons and Layers](course2-advanced-learning-algorithms/week_1/C2_W1_Lab01_Neurons_and_Layers.ipynb) | Building TensorFlow/Keras neurons that mirror Course 1's linear and logistic regression models |
+
+**In progress — actively adding notebooks weekly.**
 
 ## Stack
 
-Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn
+Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn · TensorFlow · Keras
 
-## Running locally
+## Running Locally
 
 ```bash
 git clone https://github.com/Abdullahjaved-82/ml-specialization-notes.git
@@ -41,4 +68,10 @@ cd ml-specialization-notes
 jupyter notebook
 ```
 
+## Connect
+
 These are my own implementations of concepts taught in the course, not copies of the official solutions.
+
+- LinkedIn: [linkedin.com/in/abdullah-javed-8468a7343](https://www.linkedin.com/in/abdullah-javed-8468a7343)
+- Portfolio: [abdullahjaved.site](https://abdullahjaved.site)
+- Email: abdullahjavec@gmail.com
