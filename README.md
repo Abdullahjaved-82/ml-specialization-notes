@@ -53,7 +53,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | # | Notebook | What it covers |
 |---|---|---|
 | 1 | [Neurons and Layers](course2-advanced-learning-algorithms/week_1/C2_W1_Lab01_Neurons_and_Layers.ipynb) | Building TensorFlow/Keras neurons that mirror Course 1's linear and logistic regression models |
-| 2 | [C2_W1_Lab02_CoffeeRoasting_TF](course2-advanced-learning-algorithms/week_1/C2_W1_Lab02_CoffeeRoasting_TF.ipynb) | 2-layer neural network in TensorFlow — normalization, compile, fit, weight inspection |
+| 2 | [Coffee Roasting with TensorFlow](course2-advanced-learning-algorithms/week_1/C2_W1_Lab02_CoffeeRoasting_TF.ipynb) | 2-layer neural network in TensorFlow — normalization, compile, fit, weight inspection |
 
 **In progress — actively adding notebooks weekly.**
 
