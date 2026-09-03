@@ -58,6 +58,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 4 | [ReLU Activation](course2-advanced-learning-algorithms/week_2/C2_W2_Lab01_Relu.ipynb) | ReLU implemented by hand, plus a 3-layer network with ReLU hidden layers and sigmoid output |
 | 5 | [Softmax Function](course2-advanced-learning-algorithms/week_2/C2_W2_Lab02_SoftMax.ipynb) | Softmax implemented by hand, plus obvious vs preferred TensorFlow methods for multiclass classification |
 | 6 | [Multiclass Classification](course2-advanced-learning-algorithms/week_2/C2_W2_Lab03_Multiclass_TF.ipynb) | 4-class neural network with 2 hidden neurons — decision boundaries and softmax/from_logits training |
+| 7 | [Derivatives](course2-advanced-learning-algorithms/week_2/C2_W2_Lab04_Derivatives.ipynb) | Arithmetic and symbolic derivatives using epsilon and SymPy's diff() |
 
 **In progress — actively adding notebooks weekly.**
 
