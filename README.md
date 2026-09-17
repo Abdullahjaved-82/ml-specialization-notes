@@ -61,6 +61,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 7 | [Derivatives](course2-advanced-learning-algorithms/week_2/C2_W2_Lab04_Derivatives.ipynb) | Arithmetic and symbolic derivatives using epsilon and SymPy's diff() |
 | 8 | [Backpropagation](course2-advanced-learning-algorithms/week_2/C2_W2_Lab05_Backprop.ipynb) | Chain rule and computation graphs implemented with SymPy — the algorithm behind gradient computation in neural networks |
 | 9 | [Model Evaluation and Selection](course2-advanced-learning-algorithms/week_3/C2_W3_Lab01_Model_Evaluation_and_Selection.ipynb) | Train/CV/test split, polynomial degree selection via CV MSE, and final unbiased test evaluation |
+| 10 | [Diagnosing Bias and Variance](course2-advanced-learning-algorithms/week_3/C2_W3_Lab02_Diagnosing_Bias_and_Variance.ipynb) | Diagnosing high bias vs high variance using train/CV error against a baseline, fixing each via polynomial degree and regularization |
 
 **In progress — actively adding notebooks weekly.**
 
