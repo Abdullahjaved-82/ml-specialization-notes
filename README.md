@@ -4,7 +4,8 @@
 ![NumPy](https://img.shields.io/badge/NumPy-vectorized-informational)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
 ![Status](https://img.shields.io/badge/Course%201-Complete-brightgreen)
-![Status](https://img.shields.io/badge/Course%202-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Course%202-Complete-brightgreen)
+![Status](https://img.shields.io/badge/Course%203-In%20Progress-yellow)
 
 Notebooks from working through Andrew Ng's Machine Learning Specialization (DeepLearning.AI) — every function implemented and debugged by hand with NumPy and TensorFlow, not copy-pasted from the official solutions.
 
@@ -21,6 +22,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 
 - [Course 1: Supervised ML — Regression and Classification](#course-1-supervised-machine-learning--regression-and-classification)
 - [Course 2: Advanced Learning Algorithms](#course-2-advanced-learning-algorithms)
+- [Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning](#course-3-unsupervised-learning-recommenders-reinforcement-learning)
 - [Stack](#stack)
 - [Running Locally](#running-locally)
 - [Connect](#connect)
@@ -46,7 +48,7 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 15 | — | Overfitting (interactive Coursera widget lab, no code to rebuild — skipped) |
 | 16 | [Regularization](course1-supervised-ml/week_3/C1_W3_Lab09_Regularization.ipynb) | Regularized cost and gradient for both linear and logistic regression |
 
-**Course 1: Complete** ✅
+Course 1: Complete.
 
 ## Course 2: Advanced Learning Algorithms
 
@@ -63,12 +65,17 @@ Most people run the Coursera notebooks once and move on. I wanted to actually un
 | 9 | [Model Evaluation and Selection](course2-advanced-learning-algorithms/week_3/C2_W3_Lab01_Model_Evaluation_and_Selection.ipynb) | Train/CV/test split, polynomial degree selection via CV MSE, and final unbiased test evaluation |
 | 10 | [Diagnosing Bias and Variance](course2-advanced-learning-algorithms/week_3/C2_W3_Lab02_Diagnosing_Bias_and_Variance.ipynb) | Diagnosing high bias vs high variance using train/CV error against a baseline, fixing each via polynomial degree and regularization |
 | 11 | [Decision Trees](course2-advanced-learning-algorithms/week_4/C2_W4_Lab01_Decision_Trees.ipynb) | Entropy and information gain computed from scratch to select the best splitting feature for a decision tree |
+| 12 | [Tree Ensemble](course2-advanced-learning-algorithms/week_4/C2_W4_Lab02_Tree_Ensemble.ipynb) | One-hot encoding with pandas, then decision tree, random forest and XGBoost with scikit-learn, including hyperparameter plots and early stopping |
 
-**In progress — actively adding notebooks weekly.**
+Course 2: Complete.
+
+## Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning
+
+In progress — notebooks will be added here as I work through the course.
 
 ## Stack
 
-Python · NumPy · Matplotlib · Jupyter Notebook · scikit-learn · TensorFlow · Keras
+Python · NumPy · pandas · Matplotlib · Jupyter Notebook · scikit-learn · XGBoost · TensorFlow · Keras
 
 ## Running Locally
 
